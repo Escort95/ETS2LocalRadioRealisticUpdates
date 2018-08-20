@@ -569,6 +569,12 @@
         code: "pl",
         relative_radius: 0.48,
     },
+	"poland-bstok": {
+        name: "Polska",
+        name_english: "Poland",
+        code: "pl",
+        relative_radius: 0.64,
+    },
 };
 
 var city_properties = {
@@ -8801,6 +8807,14 @@ var cities_eu_update = [
         "x": "34470.3",
         "y": "144.246",
         "z": "3249.68"
+    },
+	{
+        "gameName": "bialystok",
+        "realName": "Białystok",
+        "country": "poland-bstok",
+        "x": "44098.4",
+        "y": "92.1094",
+        "z": "-15083.4"
     },
 ];
 
