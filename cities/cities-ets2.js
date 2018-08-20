@@ -573,7 +573,7 @@
         name: "Polska",
         name_english: "Poland",
         code: "pl",
-        relative_radius: 0.64,
+        relative_radius: 0.55,
     },
 };
 
