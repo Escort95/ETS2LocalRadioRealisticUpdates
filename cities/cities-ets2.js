@@ -1,6 +1,5 @@
 ﻿    
 	//paste this into country_properties
-	//delete your previous "poland": {... and insert all the text from this file
 	"austria-salz": {
         name: "Salzburg",
         name_english: "Salzburg",
@@ -12,12 +11,6 @@
         name_english: "Wien",
         code: "at",
         relative_radius: 0.8,
-    },
-	"poland": {
-        name: "Polska",
-        name_english: "Poland",
-        code: "pl",
-        relative_radius: 0.7,
     },
     "poland-voxfm": {
         name: "Polska",
@@ -160,10 +153,9 @@
 	
 	
 	
-	//paste this into cities
-	//in this part you don't have to delete any text
-
-	{
+	//paste this into cities on the end
+var cities_eu_update = [
+    {
         "gameName": "wien",
         "realName": "Wien",
         "country": "austria-wien",
@@ -1275,3 +1267,8 @@
         "y": "121.508",
         "z": "3973.53"
     },
+];
+cities = cities.concat(cities_eu_update); //EU UPDATE BY SMASZEQ / Escort95
+
+
+
