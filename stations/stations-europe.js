@@ -2516,7 +2516,18 @@ var stations = {
             url: "http://stream10.radioagora.pl:8006/"
         },
     ],
-    
+    "poland-bstok": [
+	    {
+            name: "Radio Jard",
+            logo: "stations/images-europe/poland-bstok/jard1.png",
+            url: "http://37.59.2.218:8001/jard1"
+        },
+	    {
+            name: "Radio Jard 2",
+            logo: "stations/images-europe/poland-bstok/jard2.png",
+            url: "http://37.59.2.218:8001/jard2"
+        }
+    ],   
     "romania": [
         {
             name: "SRR Radio România Actualitati",
