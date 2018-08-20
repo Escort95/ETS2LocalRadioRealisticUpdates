@@ -150,6 +150,12 @@
         code: "pl",
         relative_radius: 0.7,
     },
+    "poland-rockr": {
+        name: "Polska",
+        name_english: "Poland",
+        code: "pl",
+        relative_radius: 0.48,
+    },
 	
 	
 	
@@ -1266,6 +1272,38 @@ var cities_eu_update = [
         "x": "44670.6",
         "y": "121.508",
         "z": "3973.53"
+    },
+    {
+        "gameName": "warszawa",
+        "realName": "Warszawa",
+        "country": "poland-rockr",
+        "x": "37353.6",
+        "y": "93.1836",
+        "z": "-9467.43"
+    },
+    {
+        "gameName": "poznan",
+        "realName": "Poznań",
+        "country": "poland-rockr",
+        "x": "22863.4",
+        "y": "46.5508",
+        "z": "-9112.2"
+    },
+    {
+        "gameName": "opole",
+        "realName": "Opole",
+        "country": "poland-rockr",
+        "x": "27536.9",
+        "y": "139.586",
+        "z": "-679.391"
+    },
+    {
+        "gameName": "krakow",
+        "realName": "Kraków",
+        "country": "poland-rockr",
+        "x": "34470.3",
+        "y": "144.246",
+        "z": "3249.68"
     },
 ];
 cities = cities.concat(cities_eu_update); //EU UPDATE BY SMASZEQ / Escort95
