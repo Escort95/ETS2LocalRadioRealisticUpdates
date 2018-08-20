@@ -251,3 +251,10 @@
             url: "http://sluchaj.107i5.fm/;"
         },
     ],
+	"poland-rockr": [
+	    {
+            name: "Rock Radio",
+            logo: "stations/images-europe/poland-rockr/rockr.jpg",
+            url: "http://stream10.radioagora.pl:8006/"
+        },
+    ],
