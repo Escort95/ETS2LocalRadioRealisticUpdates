@@ -297,7 +297,7 @@
         name: "Polska",
         name_english: "Poland",
         code: "pl",
-        relative_radius: 0.8,
+        relative_radius: 0.7,
     },
     "portugal": {
         name: "Portugal",
@@ -571,7 +571,7 @@
     },
 	"poland-bstok": {
         name: "Polska",
-        name_english: "Poland",
+        name_english: "Poland-Białystok",
         code: "pl",
         relative_radius: 0.55,
     },

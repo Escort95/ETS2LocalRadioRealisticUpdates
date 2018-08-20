@@ -2516,7 +2516,7 @@ var stations = {
             url: "http://stream10.radioagora.pl:8006/"
         },
     ],
-    "poland-bstok": [
+	"poland-bstok": [
 	    {
             name: "Radio Jard",
             logo: "stations/images-europe/poland-bstok/jard1.png",
@@ -2526,7 +2526,23 @@ var stations = {
             name: "Radio Jard 2",
             logo: "stations/images-europe/poland-bstok/jard2.png",
             url: "http://37.59.2.218:8001/jard2"
+        },
+	    {
+            name: "PR Bialystok",
+            logo: "stations/images-europe/poland-bstok/rbstok.jpg",
+            url: "http://stream4.nadaje.com:15476/radiobialystok"
+        },
+	    {
+            name: "Радыё Рацыя (Radio Racja)",
+            logo: "stations/images-europe/poland-bstok/racyja.jpg",
+            url: "http://air.racyja.by:8000/racja256"
+        },
+	    {
+            name: "Radio Akadera",
+            logo: "stations/images-europe/poland-bstok/akadera.jpg",
+            url: "http://stream4.nadaje.com:11846/;stream"
         }
+		
     ],   
     "romania": [
         {
