@@ -334,6 +334,12 @@
         name_english: "Slovakia",
         code: "sk",
         relative_radius: 0.8,
+    }, 
+    "slovakia-kos": {
+        name: "Slovensko",
+        name_english: "Slovakia",
+        code: "sk",
+        relative_radius: 0.8,
     },
     "slovenia": {
         name: "Slovenija",
