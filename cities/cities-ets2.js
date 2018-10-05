@@ -293,12 +293,6 @@
         code: "no",
         relative_radius: 1.1,
     },
-    "poland": {
-        name: "Polska",
-        name_english: "Poland",
-        code: "pl",
-        relative_radius: 0.7,
-    },
     "portugal": {
         name: "Portugal",
         name_english: "Portugal",
@@ -330,12 +324,6 @@
         relative_radius: 0.7,
     },
     "slovakia": {
-        name: "Slovensko",
-        name_english: "Slovakia",
-        code: "sk",
-        relative_radius: 0.8,
-    }, 
-    "slovakia-kos": {
         name: "Slovensko",
         name_english: "Slovakia",
         code: "sk",
@@ -431,7 +419,13 @@
         code: "at",
         relative_radius: 0.8,
     },
-    "poland-voxfm": {
+    "poland": {
+        name: "Polska",
+        name_english: "Poland",
+        code: "pl",
+        relative_radius: 0.7,
+    },
+	"poland-voxfm": {
         name: "Polska",
         name_english: "Poland",
         code: "pl",
@@ -567,7 +561,7 @@
         name: "Polska",
         name_english: "Poland-Nakło",
         code: "pl",
-        relative_radius: 0.7,
+        relative_radius: 0.5,
     },
     "poland-rockr": {
         name: "Polska",
@@ -580,6 +574,24 @@
         name_english: "Poland-Białystok",
         code: "pl",
         relative_radius: 0.55,
+    },
+	"poland-zyr": {
+        name: "Polska",
+        name_english: "Poland-Żyrardów",
+        code: "pl",
+        relative_radius: 0.4,
+    },
+	"hungary-bud": {
+        name: "Magyarország-Budapest",
+        name_english: "Hungary",
+        code: "hu",
+        relative_radius: 1,
+    },
+    "slovakia-kos": {
+        name: "Slovensko",
+        name_english: "Slovakia",
+        code: "sk",
+        relative_radius: 0.8,
     },
 };
 
@@ -779,6 +791,9 @@ var city_properties = {
         relative_radius: 0.7,
     },
     "kaliningrad": {
+        relative_radius: 0.45,
+    },
+    "kalix": {
         relative_radius: 0.45,
     },
     "kardla": {
@@ -994,7 +1009,11 @@ var city_properties = {
         relative_radius: 1.6,
     },
     "skelleftea": {
-        relative_radius: 0.5,
+        relative_whitenoise: 0.90,
+        relative_radius: 0.8,
+    },
+    "skopje": {
+        relative_radius: 1.3,
     },
     "slavonski_brod": {
         relative_radius: 0.8,
@@ -5068,6 +5087,70 @@ var cities_rusmap = [
         "x": "80491.7",
         "y": "52.1523",
         "z": "-30929.9"
+    },
+    {
+        "gameName": "kem",
+        "realName": "Kem'",
+        "country": "russia",
+        "x": "66736.8",
+        "y": "61.5156",
+        "z": "-89467.5"
+    },
+    {
+        "gameName": "medved",
+        "realName": "Medvezhyegorsk",
+        "country": "russia",
+        "x": "67995.3",
+        "y": "76.6172",
+        "z": "-77326.8"
+    },
+    {
+        "gameName": "petrozavodsk",
+        "realName": "Petrozavodsk",
+        "country": "russia",
+        "x": "66815.9",
+        "y": "86.6914",
+        "z": "-70284.8"
+    },
+    {
+        "gameName": "pole",
+        "realName": "Lodeynoye Pole",
+        "country": "russia",
+        "x": "67409.2",
+        "y": "86.4648",
+        "z": "-65013.9"
+    },
+    {
+        "gameName": "zelenoborsky",
+        "realName": "Zelenoborsky",
+        "country": "russia",
+        "x": "57673.2",
+        "y": "42.2695",
+        "z": "-93488.3"
+    },
+    {
+        "gameName": "suoyarvi",
+        "realName": "Suoyarvi",
+        "country": "russia",
+        "x": "62996.3",
+        "y": "88.9297",
+        "z": "-73603.1"
+    },
+    {
+        "gameName": "sortavala",
+        "realName": "Sortavala",
+        "country": "russia",
+        "x": "58195",
+        "y": "124.492",
+        "z": "-66991.9"
+    },
+    {
+        "gameName": "priozersk",
+        "realName": "Priozersk",
+        "country": "russia",
+        "x": "56641.7",
+        "y": "135.543",
+        "z": "-63444.7"
     }
 ];
 
@@ -7669,6 +7752,7 @@ var cities_italy_map = [
     }
 ];
 
+
 var cities_eu_update = [
     {
         "gameName": "wien",
@@ -8774,6 +8858,14 @@ var cities_eu_update = [
         "y": "115.695",
         "z": "-4837.94"
     },
+    {
+        "gameName": "radom",
+        "realName": "Radom",
+        "country": "poland-eska",
+        "x": "38543.6",
+        "y": "115.695",
+        "z": "-4837.94"
+    },
 	{
         "gameName": "przemysl",
         "realName": "Przemyśl",
@@ -8821,6 +8913,22 @@ var cities_eu_update = [
         "x": "44098.4",
         "y": "92.1094",
         "z": "-15083.4"
+    },
+	{
+        "gameName": "zyrardow",
+        "realName": "Żyrardów",
+        "country": "poland-zyr",
+        "x": "35440.7",
+        "y": "23.6055",
+        "z": "-8853.06"
+    },
+    {
+        "gameName": "budapest",
+        "realName": "Budapest",
+        "country": "hungary-bud",
+        "x": "32367.8",
+        "y": "123.836",
+        "z": "17882.7"
     },
 ];
 
