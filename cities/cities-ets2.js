@@ -293,6 +293,12 @@
         code: "no",
         relative_radius: 1.1,
     },
+    "poland": {
+        name: "Polska",
+        name_english: "Poland",
+        code: "pl",
+        relative_radius: 0.8,
+    },
     "portugal": {
         name: "Portugal",
         name_english: "Portugal",
