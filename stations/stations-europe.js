@@ -48,7 +48,7 @@ var stations = {
             url: "http://radiotrucker.com/tr/play/1949/500"
         },
     ],
-  /*  "austria": [
+    "austria": [
         {
             name: "ORF Ö1",
             logo: "stations/images-europe/austria/ORF Ö1.png",
@@ -89,7 +89,7 @@ var stations = {
             logo: "stations/images-europe/austria/Welle 1.png",
             url: "http://live.welle1.at:8128/;"
         },
-    ],*/
+    ],
     "basque": [
         {
             name: "Euskadi Irratia",
@@ -1162,7 +1162,7 @@ var stations = {
         },
         {
             name: "MDR Sputnik",
-            logo: "stations/images-europe/germany-mdr/MDR Sputnik.svg",
+            logo: "stations/images-europe/germany-mdr/MDR Sputnik.png",
             url: "http://mdr-284330-0.cast.mdr.de/mdr/284330/0/mp3/high/stream.mp3"
         },
         {
@@ -1194,6 +1194,11 @@ var stations = {
             name: "Hitradio RTL",
             logo: "stations/images-europe/germany-mdr/Hitradio RTL.svg",
             url: "https://streams.bcs-systems.de/hrrtl/live/sachsen/mp3/radioplayer/web"
+        },
+        {
+            name: "Radio PSR",
+            logo: "stations/images-europe/germany-mdr/Radio PSR.png",
+            url: "http://streams.radiopsr.de/psr-live/mp3-192/streams.radiopsr.de/"
         },
         {
             name: "Radio SAW",
@@ -2274,7 +2279,7 @@ var stations = {
             url: "http://edge-bauerno-03-gos2.sharp-stream.com/vinyl_no_mp3"
         },
     ],
- /*  "poland": [
+    "poland": [
         {
             name: "Polskie Radio 1",
             logo: "stations/images-europe/poland/Polskie Radio 1.jpg",
@@ -2311,7 +2316,7 @@ var stations = {
             logo: "stations/images-europe/poland/Planeta FM.png",
             url: "http://pla-net-01.cdn.eurozet.pl:8700/;"
         },
-        
+        */
         {
             name: "Radio ESKA",
             logo: "stations/images-europe/poland/Radio Eska.png",
@@ -2343,7 +2348,7 @@ var stations = {
             logo: "stations/images-europe/poland/Radio ZET Gold.png",
             url: "http://zgl.cdn.eurozet.pl/ZGLHIT.mp3"
         },
-        
+        */
         {
             name: "Radio Złote Przeboje",
             logo: "stations/images-europe/poland/Radio Złote Przeboje.png",
@@ -2374,7 +2379,7 @@ var stations = {
             logo: "stations/images-europe/poland/Radio VOX FM.png",
             url: "https://koenvh.nl/inc/eskago-parser.php?station=vox-fm"
         },
-    ],*/
+    ],
     "romania": [
         {
             name: "SRR Radio România Actualitati",
@@ -2549,18 +2554,18 @@ var stations = {
     "serbia": [
         {
             name: "Радио Београд 1",
-            logo: "stations/images-europe/serbia/Радио Београд.png",
-            url: "https://rts-live.morescreens.com/RTS_1_009/playlist.m3u8?video_id=15918&authority_instance_id=spectar-prd-rts&token=d798439fbb3dfc0576a1ba83dabb0695ce551b2e&profile_id=39527&application_installation_id=164882&uuid=5a940ab1441e95.14607095&subscriber_id=39566&application_id=helium&channel_name=__1&detected_delivery_method=hls"
+            logo: "stations/images-europe/serbia/Радио Београд 1.png",
+            url: "https://rtsradio-live.morescreens.com/RTS_2_001/playlist.m3u8"
         },
         {
             name: "Радио Београд 2",
-            logo: "stations/images-europe/serbia/Радио Београд 2.jpg",
-            url: "https://rts-live.morescreens.com/RTS_1_010/playlist.m3u8?video_id=16086&authority_instance_id=spectar-prd-rts&token=d798439fbb3dfc0576a1ba83dabb0695ce551b2e&profile_id=39527&application_installation_id=164882&uuid=5a940ab1441e95.14607095&subscriber_id=39566&application_id=helium&channel_name=__2&detected_delivery_method=hls"
+            logo: "stations/images-europe/serbia/Радио Београд 2.png",
+            url: "https://rtsradio-live.morescreens.com/RTS_2_002/playlist.m3u8"
         },
         {
             name: "Радио Београд 202",
-            logo: "stations/images-europe/serbia/Радио Београд 202.jpg",
-            url: "https://rts-live.morescreens.com/RTS_1_012/playlist.m3u8?video_id=16091&authority_instance_id=spectar-prd-rts&token=d798439fbb3dfc0576a1ba83dabb0695ce551b2e&profile_id=39527&application_installation_id=164882&uuid=5a940ab1441e95.14607095&subscriber_id=39566&application_id=helium&channel_name=_202&detected_delivery_method=hls"
+            logo: "stations/images-europe/serbia/Радио Београд 202.png",
+            url: "https://rtsradio-live.morescreens.com/RTS_2_004/playlist.m3u8"
         },
         {
             name: "Hit FM",
@@ -3458,7 +3463,14 @@ var stations = {
             logo: "stations/images-europe/hungary-bud/tilos.jpg",
             url: "	http://stream.tilos.hu:80/tilos"
         },
-	]	
+	],
+	"slovakia-kos": [
+        {
+        	name: "Radio Kosice",
+        	logo: "stations/images-europe/slovakia-kos/kosice.png",
+        	url: "http://stream.ecce.sk:8000/radiokosice-128.mp3"
+        }
+    ],
 };
 
 //stations["belgium"] = stations["belgium-nl"].concat(stations["belgium-fr"]);
