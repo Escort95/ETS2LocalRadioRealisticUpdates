@@ -3479,6 +3479,13 @@ var stations = {
             url: "http://civilradio.hu:8000/;stream#.mp3"
         },
 	],
+	"hungary-sze": [
+        {
+        	name: "Radio 88",
+        	logo: "stations/images-europe/hungary-bud/r88.jpg",
+        	url: "http://stream.radio88.hu:8000/;stream.nsv#.mp3"
+        }
+        ],
 	"slovakia-kos": [
         {
         	name: "Radio Kosice",
