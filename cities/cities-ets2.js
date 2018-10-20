@@ -605,6 +605,12 @@
         code: "sk",
         relative_radius: 0.8,
     },
+    "italy-rmc2": {
+        name: "Italia",
+        name_english: "Italy",
+        code: "it",
+        relative_radius: 0.6,
+    },
 };
 
 var city_properties = {
