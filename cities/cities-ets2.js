@@ -593,6 +593,12 @@
         code: "hu",
         relative_radius: 0.5,
     },
+    "hungary-sze": {
+        name: "Magyarország-Szeged",
+        name_english: "Hungary",
+        code: "hu",
+        relative_radius: 0.45,
+    },
     "slovakia-kos": {
         name: "Slovensko",
         name_english: "Slovakia",
@@ -8935,6 +8941,14 @@ var cities_eu_update = [
         "x": "32367.8",
         "y": "123.836",
         "z": "17882.7"
+    },
+    {
+        "gameName": "szeged",
+        "realName": "Szeged",
+        "country": "hungary-sze",
+        "x": "36880.7",
+        "y": "74.0469",
+        "z": "24565.7"
     },
 ];
 
