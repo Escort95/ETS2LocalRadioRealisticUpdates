@@ -3463,6 +3463,21 @@ var stations = {
             logo: "stations/images-europe/hungary-bud/tilos.jpg",
             url: "	http://stream.tilos.hu:80/tilos"
         },
+		{
+            name: "Music FM",
+            logo: "stations/images-europe/hungary/Music FM.jpg",
+            url: "http://stream.musicfm.hu:8000/musicfm.mp3"
+        },
+        {
+            name: "Magyar FM",
+            logo: "stations/images-europe/hungary-bud/magyar.png",
+            url: "http://stream.magyarfm.hu/mid.mp3"
+        },
+	    {
+            name: "Civil Radio FM98",
+            logo: "stations/images-europe/hungary-bud/civilr.jpg",
+            url: "http://civilradio.hu:8000/;stream#.mp3"
+        },
 	],
 	"slovakia-kos": [
         {
