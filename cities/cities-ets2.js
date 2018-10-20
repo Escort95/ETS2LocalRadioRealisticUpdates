@@ -587,11 +587,11 @@
         code: "pl",
         relative_radius: 0.4,
     },
-	"hungary-bud": {
+    "hungary-bud": {
         name: "Magyarország-Budapest",
         name_english: "Hungary",
         code: "hu",
-        relative_radius: 1,
+        relative_radius: 0.5,
     },
     "slovakia-kos": {
         name: "Slovensko",
