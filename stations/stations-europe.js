@@ -3493,6 +3493,13 @@ var stations = {
         	url: "http://stream.ecce.sk:8000/radiokosice-128.mp3"
         }
     ],
+    "italy-rmc2": [
+        {
+        	name: "RMC 2",
+        	logo: "stations/images-europe/italy-rmc2/rmc2.jpg",
+        	url: "http://icecast.unitedradio.it/MC2.mp3"
+        }
+    ],
 };
 
 //stations["belgium"] = stations["belgium-nl"].concat(stations["belgium-fr"]);
