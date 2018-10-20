@@ -8949,6 +8949,54 @@ var cities_eu_update = [
         "x": "36880.7",
         "y": "74.0469",
         "z": "24565.7"
+    }, 
+    {
+        "gameName": "cortina",
+        "realName": "Cortina",
+        "country": "italy-rmc2",
+        "x": "2565",
+        "y": "39",
+        "z": "23696"
+    },
+	{
+        "gameName": "torino(rmc2)",
+        "realName": "Torino",
+        "country": "italy-rmc2",
+        "x": "-18000.3",
+        "y": "89.9023",
+        "z": "30932"
+    },
+	{
+        "gameName": "monaco",
+        "realName": "Monaco",
+        "country": "italy-rmc2",
+        "x": "-14020.4",
+        "y": "110.969",
+        "z": "38206.2"
+    },
+	{
+        "gameName": "genova",
+        "realName": "Genova",
+        "country": "italy-rmc2",
+        "x": "-7493.95",
+        "y": "102.129",
+        "z": "35487.7"
+    },
+	{
+        "gameName": "napoli",
+        "realName": "Napoli",
+        "country": "italy-rmc2",
+        "x": "12301.3",
+        "y": "60",
+        "z": "55970.5"
+    },
+	{
+        "gameName": "roma",
+        "realName": "Roma",
+        "country": "italy-rmc2",
+        "x": "5853.76",
+        "y": "65",
+        "z": "49761.7"
     },
 ];
 
