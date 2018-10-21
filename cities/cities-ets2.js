@@ -293,12 +293,6 @@
         code: "no",
         relative_radius: 1.1,
     },
-    "poland": {
-        name: "Polska",
-        name_english: "Poland",
-        code: "pl",
-        relative_radius: 0.8,
-    },
     "portugal": {
         name: "Portugal",
         name_english: "Portugal",
@@ -587,7 +581,7 @@
         code: "pl",
         relative_radius: 0.4,
     },
-    "hungary-bud": {
+	"hungary-bud": {
         name: "Magyarország-Budapest",
         name_english: "Hungary",
         code: "hu",
@@ -605,7 +599,7 @@
         code: "sk",
         relative_radius: 0.8,
     },
-    "italy-rmc2": {
+	"italy-rmc2": {
         name: "Italia",
         name_english: "Italy",
         code: "it",
@@ -7771,6 +7765,8 @@ var cities_italy_map = [
 ];
 
 
+
+
 var cities_eu_update = [
     {
         "gameName": "wien",
@@ -8948,14 +8944,14 @@ var cities_eu_update = [
         "y": "123.836",
         "z": "17882.7"
     },
-    {
+	{
         "gameName": "szeged",
         "realName": "Szeged",
         "country": "hungary-sze",
         "x": "36880.7",
         "y": "74.0469",
         "z": "24565.7"
-    }, 
+    },
     {
         "gameName": "cortina",
         "realName": "Cortina",
