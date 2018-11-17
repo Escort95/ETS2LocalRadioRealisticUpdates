@@ -1,5 +1,7 @@
 # ETS2LocalRadioRealisticUpdates
 Updates for ETS2LocalRadio to add more realism. 
+ 
+Country stations update: Poland,Italy,Sweden,Slovakia,Hungary
 
 
 Original Mod Link: https://github.com/Koenvh1/ets2-local-radio
