@@ -558,7 +558,7 @@
         relative_radius: 0.5,
     },
 	"poland-nak": {
-        name: "Polska",
+        name: "Polska-Nakło",
         name_english: "Poland-Nakło",
         code: "pl",
         relative_radius: 0.5,
@@ -570,13 +570,13 @@
         relative_radius: 0.48,
     },
 	"poland-bstok": {
-        name: "Polska",
+        name: "Polska-Białystok",
         name_english: "Poland-Białystok",
         code: "pl",
         relative_radius: 0.55,
     },
 	"poland-zyr": {
-        name: "Polska",
+        name: "Polska-Żyrardów",
         name_english: "Poland-Żyrardów",
         code: "pl",
         relative_radius: 0.4,
@@ -604,6 +604,24 @@
         name_english: "Italy",
         code: "it",
         relative_radius: 0.6,
+    },
+    "italy-ibiza": {
+        name: "Italia",
+        name_english: "Italy",
+        code: "it",
+        relative_radius: 1.2,
+    },
+    "italy-vivafm": {
+        name: "Italia",
+        name_english: "Italy",
+        code: "it",
+        relative_radius: 1.2,
+    },
+    "poland-wloc": {
+        name: "Polska-Włocławek",
+        name_english: "Poland",
+        code: "pl",
+        relative_radius: 0.55,
     },
 };
 
@@ -8999,6 +9017,70 @@ var cities_eu_update = [
         "x": "5853.76",
         "y": "65",
         "z": "49761.7"
+    },
+    {
+        "gameName": "napoli",
+        "realName": "Napoli",
+        "country": "italy-ibiza",
+        "x": "12301.3",
+        "y": "60",
+        "z": "55970.5"
+    },
+    {
+        "gameName": "catanz",
+        "realName": "Catanzaro",
+        "country": "italy-ibiza",
+        "x": "23154.8",
+        "y": "88.0352",
+        "z": "66889.7"
+    },
+    {
+        "gameName": "enna",
+        "realName": "Enna",
+        "country": "italy-ibiza",
+        "x": "12818.1",
+        "y": "114.125",
+        "z": "74267.5"
+    },
+	{
+        "gameName": "verona",
+        "realName": "Verona",
+        "country": "italy-vivafm",
+        "x": "39.1094",
+        "y": "78.4023",
+        "z": "29453.3"
+    },
+	{
+        "gameName": "milano",
+        "realName": "Milano",
+        "country": "italy-vivafm",
+        "x": "-6616.31",
+        "y": "100.25",
+        "z": "28982.8"
+    },
+    {
+        "gameName": "wloclawek",
+        "realName": "Włocławek",
+        "country": "poland-wloc",
+        "x": "29569.0",
+        "y": "20",
+        "z": "-11263.1"
+    },
+    {
+        "gameName": "wloclawek",
+        "realName": "Włocławek",
+        "country": "poland-max",
+        "x": "29569.0",
+        "y": "20",
+        "z": "-11263.1"
+    },
+	{
+        "gameName": "ostroleka",
+        "realName": "Ostrołęka",
+        "country": "poland-wawa",
+        "x": "38890.4",
+        "y": "95.2539",
+        "z": "-14259.3"
     },
 ];
 
