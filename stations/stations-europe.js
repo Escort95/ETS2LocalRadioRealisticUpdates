@@ -2375,7 +2375,7 @@ var stations = {
         {
             name: "Radio WAWA",
             logo: "stations/images-europe/poland/Radio WAWA.png",
-            url: "https://koenvh.nl/inc/eskago-parser.php?station=wawa"
+            url: "http://pldm.ml/radio?url=https://www.eskago.pl/radio/wawa"
         },
         {
             name: "Radio ZET",
@@ -3278,7 +3278,7 @@ var stations = {
         {
             name: " PLUS ",
             logo: "stations/images-europe/poland/Radio Plus.jpg",
-            url: "http://www.radio-internetowe.com/eskago.php?source=http://www.eskago.pl/radio/radio-plus"
+            url: "http://pldm.ml/radio?url=https://www.eskago.pl/radio/radio-plus"
         },
         {
             name: "RadioZET",
@@ -3321,7 +3321,7 @@ var stations = {
 	    {
             name: " WAWA ",
             logo: "stations/images-europe/poland/Radio WAWA.png",
-            url: "http://www.radio-internetowe.com/eskago.php?source=http://www.eskago.pl/radio/wawa"
+            url: "http://pldm.ml/radio?url=https://www.eskago.pl/radio/wawa"
         }
     ],
     "poland-poznan": [
@@ -3540,7 +3540,32 @@ var stations = {
         	url: "http://icecast.unitedradio.it/MC2.mp3"
         }
     ],
+    "italy-ibiza": [
+        {
+        	name: "Radio Ibiza",
+        	logo: "stations/images-europe/italy-ibiza/ibiza.png",
+        	url: "http://wma02.fluidstream.net:5010/;"
+        }
+    ],
+    "italy-vivafm": [
+        {
+        	name: "Radio Viva FM",
+        	logo: "stations/images-europe/italy-vivafm/vivafm.png",
+        	url: "http://stream1.vivafm.it:8000/listen.mp3"
+        }
+    ],
+	"poland-wloc": [
+        {
+        	name: "RadioHIT",
+        	logo: "stations/images-europe/poland-wloc/hitt.jpg",
+        	url: "http://77.91.63.146:8088/listen.aac?sid=1"
+        },
+		{
+        	name: "Radio Kujawy",
+        	logo: "stations/images-europe/poland-wloc/kujawyy.png",
+        	url: "http://radio.kujawy.info:9940/listen.acc?sid=2"
+        }
+    ],
 };
-
 //stations["belgium"] = stations["belgium-nl"].concat(stations["belgium-fr"]);
 //stations["switzerland"] = stations["switzerland-de"].concat(stations["switzerland-fr"]);
