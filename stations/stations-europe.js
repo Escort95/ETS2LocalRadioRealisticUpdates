@@ -3566,6 +3566,31 @@ var stations = {
         	url: "http://radio.kujawy.info:9940/listen.acc?sid=2"
         }
     ],
+    "sweden-stock": [
+        {
+        	name: " PWR Stockholm ",
+        	logo: "stations/images-europe/sweden-stock/pwr.png",
+        	url: "http://fm04-icecast.mtg-r.net/fm04_mp3?platform=web"
+        },
+		{
+        	name: "Radio Nord",
+        	logo: "stations/images-europe/sweden-stock/nord.png",
+        	url: "http://radio.tabyenskilda.se:8050/;"
+        }
+    ],
+	"slovakia-bra": [
+        {
+        	name: "Rádio Viva Metropol",
+        	logo: "stations/images-europe/slovakia-bra/vivam.jpg",
+        	url: "http://stream.sepia.sk:8000/viva128.mp3"
+        },
+		{
+        	name: "Radio Aligator",
+        	logo: "stations/images-europe/slovakia-bra/alig.png",
+        	url: "http://stream.aligator.sk:8000/aligator_192.mp3"
+        }		
+    ],
+	
 };
 //stations["belgium"] = stations["belgium-nl"].concat(stations["belgium-fr"]);
 //stations["switzerland"] = stations["switzerland-de"].concat(stations["switzerland-fr"]);
