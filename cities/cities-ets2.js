@@ -623,6 +623,18 @@
         code: "pl",
         relative_radius: 0.55,
     },
+	"sweden-stock": {
+        name: "Sverige-Stockholm",
+        name_english: "Sweden",
+        code: "se",
+        relative_radius: 1.0,
+    },
+	"slovakia-bra": {
+        name: "Slovensko-Bratislava",
+        name_english: "Slovakia",
+        code: "sk",
+        relative_radius: 0.4,
+    },	
 };
 
 var city_properties = {
@@ -9081,6 +9093,22 @@ var cities_eu_update = [
         "x": "38890.4",
         "y": "95.2539",
         "z": "-14259.3"
+    },
+	{
+        "gameName": "stockholm",
+        "realName": "Stockholm",
+        "country": "sweden-stock",
+        "x": "24747.3",
+        "y": "68.7656",
+        "z": "-47131.9"
+    },
+	{
+        "gameName": "bratislava",
+        "realName": "Bratislava",
+        "country": "slovakia-bra",
+        "x": "24823.3",
+        "y": "77.1289",
+        "z": "14831"
     },
 ];
 
