@@ -4101,7 +4101,7 @@ var stations = {
     "poland-pogo": [
         {
             name: "Pogoda",
-            logo: "stations/images-europe/poland-war/pogoda.png",
+            logo: "stations/images-europe/eu-update-smaszeq/poland-war/pogoda.png",
             url: "http://stream10.radioagora.pl/tuba140-1.mp3"
         }
     ],
